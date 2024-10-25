@@ -65,7 +65,7 @@ class GNPSDataset(Dataset):
             [
                 os.path.join(self.directory, "matchms.mgf"),
                 os.path.join(self.directory, "lotus_metadata.csv.gz"),
-            ]
+            ],
         )
 
         spectra: list[Spectrum] = []
@@ -107,8 +107,7 @@ class GNPSDataset(Dataset):
             ):
                 continue
 
-            spectrum: Spectrum = default_filters(spectrum)
-            spectrum: Spectrum = normalize_intensities(spectrum)
+            spectrum: Spectrum = normalize_intensities(default_filters(spectrum))
 
             spectra.append(spectrum)
 

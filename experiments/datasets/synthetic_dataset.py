@@ -4,6 +4,7 @@ import os
 import pickle
 from downloaders import BaseDownloader
 from matchms import Spectrum
+from matchms.filtering import normalize_intensities, default_filters
 from experiments.datasets.spectral_dataset import Dataset
 
 
@@ -25,6 +26,9 @@ class SyntheticDataset(Dataset):
 
         with open(os.path.join(self.directory, "isdb_pos_cleaned.pkl"), "rb") as file:
             data: list[Spectrum] = pickle.load(file)
+
+        # We filter and normalize the spectra
+        data = [normalize_intensities(default_filters(s)) for s in data]
 
         return data
 
