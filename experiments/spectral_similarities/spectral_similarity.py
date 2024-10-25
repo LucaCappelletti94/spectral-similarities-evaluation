@@ -40,8 +40,7 @@ class SpectralSimilarity(Hashable):
         spectra_similarity = np.zeros((len(rows), len(columns)), dtype=np.float32)
         for i, row_spectrum in enumerate(rows):
             for j, column_spectrum in enumerate(columns):
-                score, _ = self.compute_similarity(row_spectrum, column_spectrum)
-                spectra_similarity[i, j] = score
+                spectra_similarity[i, j] = self.compute_similarity(row_spectrum, column_spectrum)
         return spectra_similarity
 
     def transform(self, rows: list[Spectrum], columns: list[Spectrum]) -> np.ndarray:
