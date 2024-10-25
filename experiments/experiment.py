@@ -90,7 +90,7 @@ def experiment_step(
                 }
             )
 
-    return results
+    return pd.DataFrame(results)
 
 
 def experiment(
