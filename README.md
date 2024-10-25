@@ -25,6 +25,7 @@ python run.py --iterations 10\
     --quantity 10000\
     --random-state 67455636\
     --data-directory "data"\
+    --output "results.csv"\
     --verbose
 ```
 
