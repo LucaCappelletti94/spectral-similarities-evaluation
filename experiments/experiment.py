@@ -20,6 +20,7 @@ from experiments.molecular_similarities import all_fingerprints, jaccard
 @Cache(
     cache_path="results/{_hash}.csv",
     use_approximated_hash=True,
+    args_to_ignore=["cache", "verbose", "n_jobs"],
     enable_cache_arg_name="cache",
     capture_enable_cache_arg_name=False,
 )
