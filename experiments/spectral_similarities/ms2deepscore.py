@@ -2,6 +2,7 @@
 
 import os
 from matchms import Spectrum
+import numpy as np
 from ms2deepscore import MS2DeepScore as MS2DeepScoreModel
 from ms2deepscore.models import load_model
 from downloaders import BaseDownloader
@@ -24,8 +25,8 @@ class MS2DeepScore(SpectralSimilarity):
             "https://zenodo.org/records/13897744/files/ms2deepscore_model.pt?download=1",
             os.path.join(directory, "ms2deepscore_model.pt"),
         )
-        self._model: MS2DeepScoreModel = load_model(
-            os.path.join(directory, "ms2deepscore_model.pt")
+        self._model: MS2DeepScoreModel = MS2DeepScoreModel(
+            load_model(os.path.join(directory, "ms2deepscore_model.pt"))
         )
 
     def name(self) -> str:
@@ -35,6 +36,10 @@ class MS2DeepScore(SpectralSimilarity):
     def compute_similarity(self, spectrum1: Spectrum, spectrum2: Spectrum) -> float:
         """Compute similarity between two spectra."""
         return self._model.pair(spectrum1, spectrum2)
+
+    def transform(self, rows: list[Spectrum], columns: list[Spectrum]) -> np.ndarray:
+        """Calculate the similarities between the rows and columns of the spectra."""
+        return self._model.matrix(rows, columns, is_symmetric=False)
 
     def to_dict(self) -> dict:
         """Return the ModifiedCosine similarity measure as a dictionary."""
