@@ -6,10 +6,13 @@ from experiments.spectral_similarities.matchms_similarities import (
     NeutralLossesCosine,
     ModifiedCosine,
 )
+from experiments.spectral_similarities.ms2deepscore import MS2DeepScore
+
 
 __all__ = [
     "SpectralSimilarity",
     "CosineGreedy",
     "NeutralLossesCosine",
     "ModifiedCosine",
+    "MS2DeepScore",
 ]

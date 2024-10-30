@@ -13,6 +13,7 @@ from experiments.spectral_similarities import (
     CosineGreedy,
     NeutralLossesCosine,
     ModifiedCosine,
+    MS2DeepScore,
 )
 from experiments.molecular_similarities import all_fingerprints, jaccard
 
@@ -138,6 +139,7 @@ def experiment(
             ModifiedCosine(
                 tolerance=dataset.tolerance(), verbose=verbose, n_jobs=n_jobs
             ),
+            MS2DeepScore(directory=directory, verbose=verbose, n_jobs=n_jobs),
         ]
         for similarity_measure in tqdm(
             similarity_measures,
