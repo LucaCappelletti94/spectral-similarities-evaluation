@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,Synthetic,ECFPFingerprint,Neutral Losses Cosine,Pearson,0.016468609569842085,0.0
+1,Synthetic,ECFPFingerprint,Neutral Losses Cosine,Spearman,-0.01948310245911032,0.0
+2,Synthetic,ECFPFingerprint,Neutral Losses Cosine,Kendall,-0.013099011955646707,0.0
+3,Synthetic,AvalonFingerprint,Neutral Losses Cosine,Pearson,-0.050783332996853725,0.0
+4,Synthetic,AvalonFingerprint,Neutral Losses Cosine,Spearman,-0.030834362875527974,0.0
+5,Synthetic,AvalonFingerprint,Neutral Losses Cosine,Kendall,-0.02079170482581555,0.0
+6,Synthetic,LayeredFingerprint,Neutral Losses Cosine,Pearson,0.029371314134448833,0.0
+7,Synthetic,LayeredFingerprint,Neutral Losses Cosine,Spearman,0.06335933138824679,0.0
+8,Synthetic,LayeredFingerprint,Neutral Losses Cosine,Kendall,0.04251963873383047,0.0
+9,Synthetic,RDKitFingerprint,Neutral Losses Cosine,Pearson,-0.005066153355454093,0.0
+10,Synthetic,RDKitFingerprint,Neutral Losses Cosine,Spearman,0.008721978897109822,0.0
+11,Synthetic,RDKitFingerprint,Neutral Losses Cosine,Kendall,0.005576821645859935,0.0

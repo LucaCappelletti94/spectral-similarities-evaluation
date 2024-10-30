@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Greedy Cosine,Pearson,0.09509751103847078,0.0
+1,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Greedy Cosine,Spearman,-0.03029215868250721,0.0
+2,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Greedy Cosine,Kendall,-0.021204287317971852,0.0
+3,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Greedy Cosine,Pearson,0.08428800864760935,0.0
+4,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Greedy Cosine,Spearman,0.023885852893068847,0.0
+5,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Greedy Cosine,Kendall,0.01691567320321344,0.0
+6,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Greedy Cosine,Pearson,0.09977829315071175,0.0
+7,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Greedy Cosine,Spearman,0.06552193517910382,0.0
+8,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Greedy Cosine,Kendall,0.04657924560806799,0.0
+9,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Greedy Cosine,Pearson,0.1088060312249285,0.0
+10,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Greedy Cosine,Spearman,0.042428495656942664,0.0
+11,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Greedy Cosine,Kendall,0.03175179351946946,0.0

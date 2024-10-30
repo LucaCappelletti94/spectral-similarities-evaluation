@@ -1,0 +1,52 @@
+{
+    "creation_time": 1730083949.2796423,
+    "creation_time_human": "2024-10-28 03:52:29",
+    "time_delta": 481.1514766216278,
+    "time_delta_human": "8 minutes and 1 second",
+    "file_dump_time": 0.001293182373046875,
+    "file_dump_time_human": "0 seconds",
+    "file_dump_size": 1318,
+    "file_dump_size_human": "1.3 kB",
+    "load_kwargs": {},
+    "dump_kwargs": {},
+    "function_name": "experiment_step",
+    "function_file": "/home/cappelle/github/spectral-similarities-evaluation/experiments/experiment.py:20",
+    "args_to_ignore": [
+        "cache",
+        "verbose",
+        "n_jobs"
+    ],
+    "source": "@Cache(\n    cache_path=\"results/{_hash}.csv\",\n    use_approximated_hash=True,\n    args_to_ignore=[\"cache\", \"verbose\", \"n_jobs\"],\n    enable_cache_arg_name=\"cache\",\n    capture_enable_cache_arg_name=False,\n)\ndef experiment_step(\n    dataset: Type[Dataset],\n    similarity_measure: Type[SpectralSimilarity],\n    quantity: int,\n    random_state: int,\n    verbose: bool,\n    n_jobs: int,\n    cache: bool,  # pylint: disable=unused-argument\n) -> pd.DataFrame:\n    \"\"\"Executes a single step of the experiment.\"\"\"\n    rows: list[Spectrum] = dataset.sample_spectra(quantity, random_state)\n    columns: list[Spectrum] = dataset.sample_spectra(quantity, random_state)\n\n    rows_smiles: list[str] = [spectrum.get(\"smiles\") for spectrum in rows]\n    columns_smiles: list[str] = [spectrum.get(\"smiles\") for spectrum in columns]\n\n    rows_fingerprints: dict[str, np.ndarray] = all_fingerprints(\n        rows_smiles, verbose=verbose, n_jobs=n_jobs\n    )\n    columns_fingerprints: dict[str, np.ndarray] = all_fingerprints(\n        columns_smiles, verbose=verbose, n_jobs=n_jobs\n    )\n\n    spectral_similarities: np.ndarray = similarity_measure.transform(rows, columns)\n\n    results: list[dict] = []\n\n    for fingerprint_name, rows_fingerprint in tqdm(\n        rows_fingerprints.items(),\n        desc=\"Fingerprints\",\n        unit=\"fingerprint\",\n        dynamic_ncols=True,\n        leave=False,\n        total=len(rows_fingerprints),\n        disable=not verbose,\n    ):\n        fingerprint_similarity = jaccard(\n            rows_fingerprint,\n            columns_fingerprints[fingerprint_name],\n        )\n        for correlation_method_name, correlation_method in tqdm(\n            (\n                (\"Pearson\", pearsonr),\n                (\"Spearman\", spearmanr),\n                (\"Kendall\", kendalltau),\n            ),\n            desc=\"Correlation\",\n            unit=\"correlation method\",\n            dynamic_ncols=True,\n            leave=False,\n            disable=not verbose,\n        ):\n            correlation, p_value = correlation_method(\n                fingerprint_similarity.flatten(), spectral_similarities.flatten()\n            )\n            results.append(\n                {\n                    \"dataset\": dataset.name(),\n                    \"fingerprint\": fingerprint_name,\n                    \"spectral_similarity\": similarity_measure.name(),\n                    \"correlation_method\": correlation_method_name,\n                    \"correlation\": correlation,\n                    \"p_value\": p_value,\n                }\n            )\n\n    return pd.DataFrame(results)\n",
+    "backend_metadata": {
+        "type": "pandas",
+        "columns_types": [
+            "str",
+            "str",
+            "str",
+            "str",
+            "float64",
+            "float64"
+        ],
+        "columns": [
+            "dataset",
+            "fingerprint",
+            "spectral_similarity",
+            "correlation_method",
+            "correlation",
+            "p_value"
+        ],
+        "index_type": "int64",
+        "columns_names_type": [
+            "str",
+            "str",
+            "str",
+            "str",
+            "str",
+            "str"
+        ]
+    },
+    "parameters": {
+        "quantity": 10000,
+        "random_state": 67455636
+    }
+}

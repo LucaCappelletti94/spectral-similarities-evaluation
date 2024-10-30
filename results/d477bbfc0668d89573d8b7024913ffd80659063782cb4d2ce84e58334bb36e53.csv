@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,GNPS (Orbitrap),ECFPFingerprint,Neutral Losses Cosine,Pearson,0.06818492320586521,0.0
+1,GNPS (Orbitrap),ECFPFingerprint,Neutral Losses Cosine,Spearman,0.14841905606870776,0.0
+2,GNPS (Orbitrap),ECFPFingerprint,Neutral Losses Cosine,Kendall,0.11422766464486346,0.0
+3,GNPS (Orbitrap),AvalonFingerprint,Neutral Losses Cosine,Pearson,0.015262441095113955,0.0
+4,GNPS (Orbitrap),AvalonFingerprint,Neutral Losses Cosine,Spearman,0.000682780718773075,8.622193403859896e-12
+5,GNPS (Orbitrap),AvalonFingerprint,Neutral Losses Cosine,Kendall,0.0004973111621954855,6.38276549504999e-11
+6,GNPS (Orbitrap),LayeredFingerprint,Neutral Losses Cosine,Pearson,0.018999300881767857,0.0
+7,GNPS (Orbitrap),LayeredFingerprint,Neutral Losses Cosine,Spearman,-0.022420907247885858,0.0
+8,GNPS (Orbitrap),LayeredFingerprint,Neutral Losses Cosine,Kendall,-0.01705279451228362,0.0
+9,GNPS (Orbitrap),RDKitFingerprint,Neutral Losses Cosine,Pearson,0.022124897451352384,0.0
+10,GNPS (Orbitrap),RDKitFingerprint,Neutral Losses Cosine,Spearman,0.01827460317648136,0.0
+11,GNPS (Orbitrap),RDKitFingerprint,Neutral Losses Cosine,Kendall,0.013944515642029821,0.0

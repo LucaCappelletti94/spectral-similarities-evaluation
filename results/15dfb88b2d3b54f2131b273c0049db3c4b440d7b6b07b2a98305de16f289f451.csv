@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Neutral Losses Cosine,Pearson,0.03513395534340659,0.0
+1,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Neutral Losses Cosine,Spearman,0.006781301321928552,0.0
+2,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Neutral Losses Cosine,Kendall,0.00490304579675249,0.0
+3,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Neutral Losses Cosine,Pearson,0.02306708298184238,0.0
+4,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Neutral Losses Cosine,Spearman,0.0010119756874548604,4.5152446387873815e-24
+5,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Neutral Losses Cosine,Kendall,0.0006117113437358386,6.024996642674975e-18
+6,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Neutral Losses Cosine,Pearson,0.06440059757795061,0.0
+7,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Neutral Losses Cosine,Spearman,0.06346047804584357,0.0
+8,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Neutral Losses Cosine,Kendall,0.04513722875009761,0.0
+9,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Neutral Losses Cosine,Pearson,0.04744122549955882,0.0
+10,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Neutral Losses Cosine,Spearman,0.033045811691790314,0.0
+11,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Neutral Losses Cosine,Kendall,0.024246045823418293,0.0

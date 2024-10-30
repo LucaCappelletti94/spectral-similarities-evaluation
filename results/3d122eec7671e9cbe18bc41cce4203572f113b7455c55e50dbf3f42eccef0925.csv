@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,GNPS (Orbitrap),ECFPFingerprint,Greedy Cosine,Pearson,0.05935827475574228,0.0
+1,GNPS (Orbitrap),ECFPFingerprint,Greedy Cosine,Spearman,0.11423390888993869,0.0
+2,GNPS (Orbitrap),ECFPFingerprint,Greedy Cosine,Kendall,0.08739977017178151,0.0
+3,GNPS (Orbitrap),AvalonFingerprint,Greedy Cosine,Pearson,0.0369226932587362,0.0
+4,GNPS (Orbitrap),AvalonFingerprint,Greedy Cosine,Spearman,0.01233076196085813,0.0
+5,GNPS (Orbitrap),AvalonFingerprint,Greedy Cosine,Kendall,0.009360443416891432,0.0
+6,GNPS (Orbitrap),LayeredFingerprint,Greedy Cosine,Pearson,0.037436679149367484,0.0
+7,GNPS (Orbitrap),LayeredFingerprint,Greedy Cosine,Spearman,-0.02829020069214124,0.0
+8,GNPS (Orbitrap),LayeredFingerprint,Greedy Cosine,Kendall,-0.021525786823252572,0.0
+9,GNPS (Orbitrap),RDKitFingerprint,Greedy Cosine,Pearson,0.05101781823034383,0.0
+10,GNPS (Orbitrap),RDKitFingerprint,Greedy Cosine,Spearman,0.026046513823701743,0.0
+11,GNPS (Orbitrap),RDKitFingerprint,Greedy Cosine,Kendall,0.01979615823203348,0.0

@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, Negatives)",ECFPFingerprint,Greedy Cosine,Pearson,0.07962127995695892,0.0
+1,"GNPS (LOTUS, Negatives)",ECFPFingerprint,Greedy Cosine,Spearman,0.011726513387674668,0.0
+2,"GNPS (LOTUS, Negatives)",ECFPFingerprint,Greedy Cosine,Kendall,0.00876272676158223,0.0
+3,"GNPS (LOTUS, Negatives)",AvalonFingerprint,Greedy Cosine,Pearson,0.07749735260266466,0.0
+4,"GNPS (LOTUS, Negatives)",AvalonFingerprint,Greedy Cosine,Spearman,0.029285375383881134,0.0
+5,"GNPS (LOTUS, Negatives)",AvalonFingerprint,Greedy Cosine,Kendall,0.02149078919524897,0.0
+6,"GNPS (LOTUS, Negatives)",LayeredFingerprint,Greedy Cosine,Pearson,0.09704224966717902,0.0
+7,"GNPS (LOTUS, Negatives)",LayeredFingerprint,Greedy Cosine,Spearman,0.07076095252309557,0.0
+8,"GNPS (LOTUS, Negatives)",LayeredFingerprint,Greedy Cosine,Kendall,0.0521262712901582,0.0
+9,"GNPS (LOTUS, Negatives)",RDKitFingerprint,Greedy Cosine,Pearson,0.0903539966343595,0.0
+10,"GNPS (LOTUS, Negatives)",RDKitFingerprint,Greedy Cosine,Spearman,-0.02016117149533858,0.0
+11,"GNPS (LOTUS, Negatives)",RDKitFingerprint,Greedy Cosine,Kendall,-0.014475265167172902,0.0

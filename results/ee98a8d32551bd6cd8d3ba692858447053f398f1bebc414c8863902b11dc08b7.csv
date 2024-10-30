@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, Negatives, QTOF)",ECFPFingerprint,Modified Cosine,Pearson,-0.02986619732812287,0.0
+1,"GNPS (LOTUS, Negatives, QTOF)",ECFPFingerprint,Modified Cosine,Spearman,-0.03923432138290282,0.0
+2,"GNPS (LOTUS, Negatives, QTOF)",ECFPFingerprint,Modified Cosine,Kendall,-0.027607067376601745,0.0
+3,"GNPS (LOTUS, Negatives, QTOF)",AvalonFingerprint,Modified Cosine,Pearson,0.03561613072563514,0.0
+4,"GNPS (LOTUS, Negatives, QTOF)",AvalonFingerprint,Modified Cosine,Spearman,0.05836452129359305,0.0
+5,"GNPS (LOTUS, Negatives, QTOF)",AvalonFingerprint,Modified Cosine,Kendall,0.04099897650109452,0.0
+6,"GNPS (LOTUS, Negatives, QTOF)",LayeredFingerprint,Modified Cosine,Pearson,0.08505391386409009,0.0
+7,"GNPS (LOTUS, Negatives, QTOF)",LayeredFingerprint,Modified Cosine,Spearman,0.12498160942933122,0.0
+8,"GNPS (LOTUS, Negatives, QTOF)",LayeredFingerprint,Modified Cosine,Kendall,0.08747114952600929,0.0
+9,"GNPS (LOTUS, Negatives, QTOF)",RDKitFingerprint,Modified Cosine,Pearson,0.05348161239081849,0.0
+10,"GNPS (LOTUS, Negatives, QTOF)",RDKitFingerprint,Modified Cosine,Spearman,0.04292200535266487,0.0
+11,"GNPS (LOTUS, Negatives, QTOF)",RDKitFingerprint,Modified Cosine,Kendall,0.030670613914090834,0.0

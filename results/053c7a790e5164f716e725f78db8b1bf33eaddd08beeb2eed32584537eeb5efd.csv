@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (Positives, QTOF)",ECFPFingerprint,Modified Cosine,Pearson,0.0025784860429337608,0.0
+1,"GNPS (Positives, QTOF)",ECFPFingerprint,Modified Cosine,Spearman,-0.039542858347233346,0.0
+2,"GNPS (Positives, QTOF)",ECFPFingerprint,Modified Cosine,Kendall,-0.026729923733468986,0.0
+3,"GNPS (Positives, QTOF)",AvalonFingerprint,Modified Cosine,Pearson,-0.008912465659811804,0.0
+4,"GNPS (Positives, QTOF)",AvalonFingerprint,Modified Cosine,Spearman,-0.019329997077616783,0.0
+5,"GNPS (Positives, QTOF)",AvalonFingerprint,Modified Cosine,Kendall,-0.013063301406898107,0.0
+6,"GNPS (Positives, QTOF)",LayeredFingerprint,Modified Cosine,Pearson,0.03165331415849047,0.0
+7,"GNPS (Positives, QTOF)",LayeredFingerprint,Modified Cosine,Spearman,0.030198480897277894,0.0
+8,"GNPS (Positives, QTOF)",LayeredFingerprint,Modified Cosine,Kendall,0.020420011712865935,0.0
+9,"GNPS (Positives, QTOF)",RDKitFingerprint,Modified Cosine,Pearson,0.016800534020316817,0.0
+10,"GNPS (Positives, QTOF)",RDKitFingerprint,Modified Cosine,Spearman,0.007136199228952725,0.0
+11,"GNPS (Positives, QTOF)",RDKitFingerprint,Modified Cosine,Kendall,0.0050508904832141715,0.0

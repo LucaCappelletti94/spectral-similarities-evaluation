@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,GNPS (LOTUS),ECFPFingerprint,Modified Cosine,Pearson,0.10202042434858838,0.0
+1,GNPS (LOTUS),ECFPFingerprint,Modified Cosine,Spearman,0.17629851658682116,0.0
+2,GNPS (LOTUS),ECFPFingerprint,Modified Cosine,Kendall,0.12824944987508785,0.0
+3,GNPS (LOTUS),AvalonFingerprint,Modified Cosine,Pearson,0.018239132428385412,0.0
+4,GNPS (LOTUS),AvalonFingerprint,Modified Cosine,Spearman,0.05597968249048108,0.0
+5,GNPS (LOTUS),AvalonFingerprint,Modified Cosine,Kendall,0.04045433027392328,0.0
+6,GNPS (LOTUS),LayeredFingerprint,Modified Cosine,Pearson,0.029318612656620852,0.0
+7,GNPS (LOTUS),LayeredFingerprint,Modified Cosine,Spearman,0.03945355616746535,0.0
+8,GNPS (LOTUS),LayeredFingerprint,Modified Cosine,Kendall,0.028381899402966117,0.0
+9,GNPS (LOTUS),RDKitFingerprint,Modified Cosine,Pearson,0.03146396918185807,0.0
+10,GNPS (LOTUS),RDKitFingerprint,Modified Cosine,Spearman,0.046216768030876786,0.0
+11,GNPS (LOTUS),RDKitFingerprint,Modified Cosine,Kendall,0.033149412239165184,0.0

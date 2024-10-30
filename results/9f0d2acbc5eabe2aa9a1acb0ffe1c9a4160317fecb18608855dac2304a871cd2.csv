@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (Positives, QTOF)",ECFPFingerprint,Neutral Losses Cosine,Pearson,0.03585591165663485,0.0
+1,"GNPS (Positives, QTOF)",ECFPFingerprint,Neutral Losses Cosine,Spearman,-0.06689892531235736,0.0
+2,"GNPS (Positives, QTOF)",ECFPFingerprint,Neutral Losses Cosine,Kendall,-0.04621066066573304,0.0
+3,"GNPS (Positives, QTOF)",AvalonFingerprint,Neutral Losses Cosine,Pearson,0.00857824059614057,0.0
+4,"GNPS (Positives, QTOF)",AvalonFingerprint,Neutral Losses Cosine,Spearman,-0.04373190193991325,0.0
+5,"GNPS (Positives, QTOF)",AvalonFingerprint,Neutral Losses Cosine,Kendall,-0.030404334823578887,0.0
+6,"GNPS (Positives, QTOF)",LayeredFingerprint,Neutral Losses Cosine,Pearson,0.04158494279127687,0.0
+7,"GNPS (Positives, QTOF)",LayeredFingerprint,Neutral Losses Cosine,Spearman,0.015048173520812908,0.0
+8,"GNPS (Positives, QTOF)",LayeredFingerprint,Neutral Losses Cosine,Kendall,0.010475646996447962,0.0
+9,"GNPS (Positives, QTOF)",RDKitFingerprint,Neutral Losses Cosine,Pearson,0.019305686932331576,0.0
+10,"GNPS (Positives, QTOF)",RDKitFingerprint,Neutral Losses Cosine,Spearman,-0.03313240777332787,0.0
+11,"GNPS (Positives, QTOF)",RDKitFingerprint,Neutral Losses Cosine,Kendall,-0.022920340051676476,0.0
