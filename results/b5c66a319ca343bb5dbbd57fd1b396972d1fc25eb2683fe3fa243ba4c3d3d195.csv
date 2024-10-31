@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, Positives, Orbitrap)",ECFPFingerprint,MS2DeepScore,Pearson,-0.12606001435700853,0.0
+1,"GNPS (LOTUS, Positives, Orbitrap)",ECFPFingerprint,MS2DeepScore,Spearman,-0.13258852403716248,0.0
+2,"GNPS (LOTUS, Positives, Orbitrap)",ECFPFingerprint,MS2DeepScore,Kendall,-0.09039355620983262,0.0
+3,"GNPS (LOTUS, Positives, Orbitrap)",AvalonFingerprint,MS2DeepScore,Pearson,0.045656181512278925,0.0
+4,"GNPS (LOTUS, Positives, Orbitrap)",AvalonFingerprint,MS2DeepScore,Spearman,0.039511724798991336,0.0
+5,"GNPS (LOTUS, Positives, Orbitrap)",AvalonFingerprint,MS2DeepScore,Kendall,0.025691292422297004,0.0
+6,"GNPS (LOTUS, Positives, Orbitrap)",LayeredFingerprint,MS2DeepScore,Pearson,0.25613550968258625,0.0
+7,"GNPS (LOTUS, Positives, Orbitrap)",LayeredFingerprint,MS2DeepScore,Spearman,0.24192253536609923,0.0
+8,"GNPS (LOTUS, Positives, Orbitrap)",LayeredFingerprint,MS2DeepScore,Kendall,0.16313656342676494,0.0
+9,"GNPS (LOTUS, Positives, Orbitrap)",RDKitFingerprint,MS2DeepScore,Pearson,0.09994701880049205,0.0
+10,"GNPS (LOTUS, Positives, Orbitrap)",RDKitFingerprint,MS2DeepScore,Spearman,0.06515854505779145,0.0
+11,"GNPS (LOTUS, Positives, Orbitrap)",RDKitFingerprint,MS2DeepScore,Kendall,0.044363466174089525,0.0

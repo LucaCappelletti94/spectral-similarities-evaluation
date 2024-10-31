@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,GNPS (Positives),ECFPFingerprint,MS2DeepScore,Pearson,-0.1907212316792053,0.0
+1,GNPS (Positives),ECFPFingerprint,MS2DeepScore,Spearman,-0.19670823278482633,0.0
+2,GNPS (Positives),ECFPFingerprint,MS2DeepScore,Kendall,-0.13457302004741883,0.0
+3,GNPS (Positives),AvalonFingerprint,MS2DeepScore,Pearson,-0.05800730760556187,0.0
+4,GNPS (Positives),AvalonFingerprint,MS2DeepScore,Spearman,-0.07301826867600418,0.0
+5,GNPS (Positives),AvalonFingerprint,MS2DeepScore,Kendall,-0.04970258466358884,0.0
+6,GNPS (Positives),LayeredFingerprint,MS2DeepScore,Pearson,0.16794631297014775,0.0
+7,GNPS (Positives),LayeredFingerprint,MS2DeepScore,Spearman,0.13619944927852998,0.0
+8,GNPS (Positives),LayeredFingerprint,MS2DeepScore,Kendall,0.09127197607492282,0.0
+9,GNPS (Positives),RDKitFingerprint,MS2DeepScore,Pearson,0.06477161849301556,0.0
+10,GNPS (Positives),RDKitFingerprint,MS2DeepScore,Spearman,0.025994704758584616,0.0
+11,GNPS (Positives),RDKitFingerprint,MS2DeepScore,Kendall,0.018686165547157553,0.0

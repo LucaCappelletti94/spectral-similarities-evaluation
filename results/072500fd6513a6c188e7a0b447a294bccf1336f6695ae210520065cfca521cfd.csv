@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (Negatives, QTOF)",ECFPFingerprint,MS2DeepScore,Pearson,0.0583541246559925,0.0
+1,"GNPS (Negatives, QTOF)",ECFPFingerprint,MS2DeepScore,Spearman,0.02622457525595562,0.0
+2,"GNPS (Negatives, QTOF)",ECFPFingerprint,MS2DeepScore,Kendall,0.01477010683658602,0.0
+3,"GNPS (Negatives, QTOF)",AvalonFingerprint,MS2DeepScore,Pearson,0.10992353210150323,0.0
+4,"GNPS (Negatives, QTOF)",AvalonFingerprint,MS2DeepScore,Spearman,0.0823726609993862,0.0
+5,"GNPS (Negatives, QTOF)",AvalonFingerprint,MS2DeepScore,Kendall,0.05290903015937315,0.0
+6,"GNPS (Negatives, QTOF)",LayeredFingerprint,MS2DeepScore,Pearson,0.2702201751191115,0.0
+7,"GNPS (Negatives, QTOF)",LayeredFingerprint,MS2DeepScore,Spearman,0.2280953406842854,0.0
+8,"GNPS (Negatives, QTOF)",LayeredFingerprint,MS2DeepScore,Kendall,0.1536731262970844,0.0
+9,"GNPS (Negatives, QTOF)",RDKitFingerprint,MS2DeepScore,Pearson,0.24024198409784345,0.0
+10,"GNPS (Negatives, QTOF)",RDKitFingerprint,MS2DeepScore,Spearman,0.1850182382915304,0.0
+11,"GNPS (Negatives, QTOF)",RDKitFingerprint,MS2DeepScore,Kendall,0.12504011848620042,0.0

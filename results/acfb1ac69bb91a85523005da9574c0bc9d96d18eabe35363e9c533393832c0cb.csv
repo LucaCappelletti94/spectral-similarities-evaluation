@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, Positives, QTOF)",ECFPFingerprint,MS2DeepScore,Pearson,0.003234706950861488,1.521259484524504e-229
+1,"GNPS (LOTUS, Positives, QTOF)",ECFPFingerprint,MS2DeepScore,Spearman,-0.014419306227026873,0.0
+2,"GNPS (LOTUS, Positives, QTOF)",ECFPFingerprint,MS2DeepScore,Kendall,-0.011031050990813735,0.0
+3,"GNPS (LOTUS, Positives, QTOF)",AvalonFingerprint,MS2DeepScore,Pearson,0.0541972920152875,0.0
+4,"GNPS (LOTUS, Positives, QTOF)",AvalonFingerprint,MS2DeepScore,Spearman,0.04029415198917664,0.0
+5,"GNPS (LOTUS, Positives, QTOF)",AvalonFingerprint,MS2DeepScore,Kendall,0.02533011473292384,0.0
+6,"GNPS (LOTUS, Positives, QTOF)",LayeredFingerprint,MS2DeepScore,Pearson,0.24924542707052977,0.0
+7,"GNPS (LOTUS, Positives, QTOF)",LayeredFingerprint,MS2DeepScore,Spearman,0.22223059688094218,0.0
+8,"GNPS (LOTUS, Positives, QTOF)",LayeredFingerprint,MS2DeepScore,Kendall,0.15023157487695052,0.0
+9,"GNPS (LOTUS, Positives, QTOF)",RDKitFingerprint,MS2DeepScore,Pearson,0.1868125733388151,0.0
+10,"GNPS (LOTUS, Positives, QTOF)",RDKitFingerprint,MS2DeepScore,Spearman,0.15465497065233347,0.0
+11,"GNPS (LOTUS, Positives, QTOF)",RDKitFingerprint,MS2DeepScore,Kendall,0.10493029265370508,0.0
