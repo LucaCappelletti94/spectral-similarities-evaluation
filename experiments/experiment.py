@@ -4,9 +4,11 @@ from typing import Type
 from cache_decorator import Cache
 import numpy as np
 import pandas as pd
+import os
 from tqdm.auto import tqdm, trange
 from matchms import Spectrum
 from scipy.stats import pearsonr, spearmanr, kendalltau
+from barplots import barplots
 from experiments.datasets import Dataset, GNPSDataset, SyntheticDataset
 from experiments.spectral_similarities import (
     SpectralSimilarity,
@@ -169,4 +171,30 @@ def experiment(
                     )
                 )
 
-    return pd.concat(results)
+    results = pd.concat(results)
+
+    for fingerprint_name, fingerprint_results in results.groupby("fingerprint"):
+        fingerprint_results["dataset"] = [
+            dataset.replace("Positives", "Pos").replace("Negatives", "Neg").replace("Orbitrap", "OT")
+            for dataset in fingerprint_results["dataset"]
+        ]
+
+        barplots(
+            fingerprint_results.drop(columns=["p_value"]),
+            path=os.path.join(
+                "barplots", fingerprint_name.replace(" ", "_").lower(), "{feature}.png"
+            ),
+            groupby=[
+                "correlation_method",
+                "dataset",
+                "spectral_similarity",
+            ],
+            unique_minor_labels=False,
+            orientation="horizontal",
+            height=6,
+            bar_width=0.1,
+            space_width=0.15,
+            subplots=True,
+        )
+
+    return results
