@@ -1,10 +1,10 @@
 """Main loop of the experiment."""
 
 from typing import Type
+import os
 from cache_decorator import Cache
 import numpy as np
 import pandas as pd
-import os
 from tqdm.auto import tqdm, trange
 from matchms import Spectrum
 from scipy.stats import pearsonr, spearmanr, kendalltau
@@ -153,7 +153,7 @@ def experiment(
         ]
         for similarity_measure in tqdm(
             similarity_measures,
-            desc="Similarities",
+            desc=f"Similarities on '{dataset.name()}'",
             unit="similarity measure",
             dynamic_ncols=True,
             leave=False,
@@ -161,7 +161,7 @@ def experiment(
         ):
             for iteration in trange(
                 iterations,
-                desc="Iterations",
+                desc=f"Iterations of '{similarity_measure.name()}' on '{dataset.name()}'",
                 unit="iteration",
                 dynamic_ncols=True,
                 leave=False,
