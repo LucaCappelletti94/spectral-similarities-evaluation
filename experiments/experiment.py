@@ -16,6 +16,8 @@ from experiments.spectral_similarities import (
     NeutralLossesCosine,
     ModifiedCosine,
     MS2DeepScore,
+    WeightedMassSpecEntropy,
+    UnweightedMassSpecEntropy,
 )
 from experiments.molecular_similarities import all_fingerprints, jaccard
 
@@ -142,6 +144,12 @@ def experiment(
                 tolerance=dataset.tolerance(), verbose=verbose, n_jobs=n_jobs
             ),
             MS2DeepScore(directory=directory, verbose=verbose, n_jobs=n_jobs),
+            UnweightedMassSpecEntropy(
+                tolerance=dataset.tolerance(), verbose=verbose, n_jobs=n_jobs
+            ),
+            WeightedMassSpecEntropy(
+                tolerance=dataset.tolerance(), verbose=verbose, n_jobs=n_jobs
+            ),
         ]
         for similarity_measure in tqdm(
             similarity_measures,
@@ -175,7 +183,9 @@ def experiment(
 
     for fingerprint_name, fingerprint_results in results.groupby("fingerprint"):
         fingerprint_results["dataset"] = [
-            dataset.replace("Positives", "Pos").replace("Negatives", "Neg").replace("Orbitrap", "OT")
+            dataset.replace("Positives", "Pos")
+            .replace("Negatives", "Neg")
+            .replace("Orbitrap", "OT")
             for dataset in fingerprint_results["dataset"]
         ]
 
