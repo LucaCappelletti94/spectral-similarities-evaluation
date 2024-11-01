@@ -7,6 +7,10 @@ from experiments.spectral_similarities.matchms_similarities import (
     ModifiedCosine,
 )
 from experiments.spectral_similarities.ms2deepscore import MS2DeepScore
+from experiments.spectral_similarities.ms_entropy import (
+    UnweightedMassSpecEntropy,
+    WeightedMassSpecEntropy,
+)
 
 
 __all__ = [
@@ -15,4 +19,6 @@ __all__ = [
     "NeutralLossesCosine",
     "ModifiedCosine",
     "MS2DeepScore",
+    "UnweightedMassSpecEntropy",
+    "WeightedMassSpecEntropy",
 ]
