@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (Positives, QTOF)",ECFPFingerprint,Weighted MS Entropy,Pearson,0.03493673931576758,0.0
+1,"GNPS (Positives, QTOF)",ECFPFingerprint,Weighted MS Entropy,Spearman,0.02088667369921289,0.0
+2,"GNPS (Positives, QTOF)",ECFPFingerprint,Weighted MS Entropy,Kendall,0.017177500624649483,0.0
+3,"GNPS (Positives, QTOF)",AvalonFingerprint,Weighted MS Entropy,Pearson,0.023187887855248984,0.0
+4,"GNPS (Positives, QTOF)",AvalonFingerprint,Weighted MS Entropy,Spearman,0.015798975520325317,0.0
+5,"GNPS (Positives, QTOF)",AvalonFingerprint,Weighted MS Entropy,Kendall,0.012914176774795954,0.0
+6,"GNPS (Positives, QTOF)",LayeredFingerprint,Weighted MS Entropy,Pearson,0.02690404196938951,0.0
+7,"GNPS (Positives, QTOF)",LayeredFingerprint,Weighted MS Entropy,Spearman,0.013328437097628447,0.0
+8,"GNPS (Positives, QTOF)",LayeredFingerprint,Weighted MS Entropy,Kendall,0.010892585974325788,0.0
+9,"GNPS (Positives, QTOF)",RDKitFingerprint,Weighted MS Entropy,Pearson,0.028899452270127565,0.0
+10,"GNPS (Positives, QTOF)",RDKitFingerprint,Weighted MS Entropy,Spearman,0.015713459888195332,0.0
+11,"GNPS (Positives, QTOF)",RDKitFingerprint,Weighted MS Entropy,Kendall,0.01283633926068145,0.0

@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (Negatives, Orbitrap)",ECFPFingerprint,Weighted MS Entropy,Pearson,0.028141535987863082,0.0
+1,"GNPS (Negatives, Orbitrap)",ECFPFingerprint,Weighted MS Entropy,Spearman,0.012440040343618095,0.0
+2,"GNPS (Negatives, Orbitrap)",ECFPFingerprint,Weighted MS Entropy,Kendall,0.010235296528175796,0.0
+3,"GNPS (Negatives, Orbitrap)",AvalonFingerprint,Weighted MS Entropy,Pearson,0.020764039044876715,0.0
+4,"GNPS (Negatives, Orbitrap)",AvalonFingerprint,Weighted MS Entropy,Spearman,0.01157191881441041,0.0
+5,"GNPS (Negatives, Orbitrap)",AvalonFingerprint,Weighted MS Entropy,Kendall,0.009457290823796795,0.0
+6,"GNPS (Negatives, Orbitrap)",LayeredFingerprint,Weighted MS Entropy,Pearson,0.03173231282797474,0.0
+7,"GNPS (Negatives, Orbitrap)",LayeredFingerprint,Weighted MS Entropy,Spearman,0.01832428635668376,0.0
+8,"GNPS (Negatives, Orbitrap)",LayeredFingerprint,Weighted MS Entropy,Kendall,0.01497310287673396,0.0
+9,"GNPS (Negatives, Orbitrap)",RDKitFingerprint,Weighted MS Entropy,Pearson,0.03386399634439978,0.0
+10,"GNPS (Negatives, Orbitrap)",RDKitFingerprint,Weighted MS Entropy,Spearman,0.015173705423439645,0.0
+11,"GNPS (Negatives, Orbitrap)",RDKitFingerprint,Weighted MS Entropy,Kendall,0.01239834690945302,0.0

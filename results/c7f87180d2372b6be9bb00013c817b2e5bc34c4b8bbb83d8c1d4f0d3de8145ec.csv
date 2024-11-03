@@ -1,0 +1,13 @@
+,dataset,fingerprint,spectral_similarity,correlation_method,correlation,p_value
+0,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Unweighted MS Entropy,Pearson,0.03286854213896296,0.0
+1,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Unweighted MS Entropy,Spearman,0.018358984829278526,0.0
+2,"GNPS (LOTUS, QTOF)",ECFPFingerprint,Unweighted MS Entropy,Kendall,0.015097861140554706,0.0
+3,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Unweighted MS Entropy,Pearson,0.022236251488242025,0.0
+4,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Unweighted MS Entropy,Spearman,0.016528783403509807,0.0
+5,"GNPS (LOTUS, QTOF)",AvalonFingerprint,Unweighted MS Entropy,Kendall,0.013511233531379126,0.0
+6,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Unweighted MS Entropy,Pearson,0.02579325951085206,0.0
+7,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Unweighted MS Entropy,Spearman,0.01579616468737979,0.0
+8,"GNPS (LOTUS, QTOF)",LayeredFingerprint,Unweighted MS Entropy,Kendall,0.012908911301847235,0.0
+9,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Unweighted MS Entropy,Pearson,0.028866320294568423,0.0
+10,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Unweighted MS Entropy,Spearman,0.0173032393748645,0.0
+11,"GNPS (LOTUS, QTOF)",RDKitFingerprint,Unweighted MS Entropy,Kendall,0.01413496417229651,0.0
